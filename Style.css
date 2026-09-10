@@ -1,6 +1,39 @@
 body{
     background-color: grey;
 }
-img{
-    flex-direction: center;
+.contenedor-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contenedor-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos del Carrusel sin JavaScript */
+.carrusel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 15px;
+    margin: 20px 0;
+    padding-bottom: 10px;
+}
+
+.carrusel-item {
+    flex: 50%;
+    max-width: 320px;
+    scroll-snap-align: center;
+}
+
+.carrusel-item img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 40px;
+    border: 2px solid #097ae4;
 }

@@ -14,7 +14,6 @@ body{
     border-radius: 10px;
 }
 
-/* Estilos del Carrusel sin JavaScript */
 .carrusel {
     display: flex;
     overflow-x: auto;

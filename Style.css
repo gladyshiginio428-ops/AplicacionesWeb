@@ -1,5 +1,6 @@
 body{
-    background-color: grey;
+    background-color: #121214;
+    color: #e1e1e6;
 }
 .contenedor-img {
     display: flex;
